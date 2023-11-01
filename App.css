@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+button {
+  background-color: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid pink;
+  text-align: center;
+}
+
+.Open_Book {
+  animation: App-logo-spin infinite 10s linear;
+  height: 10vmin;
+  border: none; /* Remove borders */
+}
+
+.Calculator {
+ animation: App-logo-spin infinite 15s linear;
+ text-align: center;
+ height: 10vmin;
+ border: none; /* Remove borders */
+ outline: none;
+ display: flex;
+ flex-wrap: flex;
+ justify-content: center;
+
+}
+
+/*.Cat-logo {
+  animation: App-logo-spin-backward infinite 15s linear;
+  height: 30vmin;
+  pointer-events: none;
+}*/
+
+/*.Calculator-Colored {
+  animation: App-logo-spin-backward infinite 15s linear;
+  height: 15vmin;
+  pointer-events: none;
+}*/
+.App-header {
+  
+  background-color: #B0E0E6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin-backward {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

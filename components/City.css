@@ -1,0 +1,128 @@
+.card {
+	box-shadow: 0 4px 8px 0 rgb(255,248,220);
+	transition: 0.3s;
+	border-radius: 50px; /* 50px rounded corners */
+	border: 2px solid;
+	text-align: center;
+	background-color: #FFF8DC;
+	width: 320px;
+  	padding: 10px;
+  	margin: 0;
+  	position: absolute;
+  	left: 30%; /*left top and transform goes togather to center the card in the middle*/
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.oneAccountcard {
+	box-shadow: 0 4px 8px 0 rgb(255,248,220);
+	transition: 0.3s;
+	border-radius: 50px; /* 50px rounded corners */
+	border: 2px solid;
+	text-align: center;
+	background-color: #FFF8DC;
+	width: 320px;
+  	padding: 10px;
+  	margin: 0;
+  	position: absolute;
+  	left: 50%; /*left top and transform goes togather to center the card in the middle*/
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.arrayListCard {
+	box-shadow: 0 4px 8px 0 rgb(224,255,255);
+	transition: 0.3s;
+	border-radius: 30px; /* 50px rounded corners */
+	border: 2px solid;
+	text-align: center;
+	background-color: #E0FFFF;
+	width: 520px;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  left: 90%; /*left top and transform goes togather to center the card in the middle*/
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.left-half {
+  background-color: #FFF8DC;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.right-half {
+  background-color: #FFF8DC;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+
+.accountBalanceCard {
+	box-shadow: 0 4px 8px 0 rgb(224,255,255);
+	transition: 0.3s;
+	border-radius: 30px; /* 50px rounded corners */
+	border: 2px solid;
+	text-align: center;
+	background-color: #E0FFFF;
+	width: 50%;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  left: 50%; /*left top and transform goes togather to center the card in the middle*/
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
+table {
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 1em;
+}
+
+button {
+  background-color: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0;
+}
+
+button2 {
+  background-color: none;
+  border: 2px solid;
+  transition: 0.3s;
+  text-align: center;
+  outline: none;
+  background: transparent;
+  padding: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin-backward {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+background{
+  /* background-image: url("C:/Users/Silver/Desktop/evolveu/my-app/src/components/WorldMap.png"); */
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+}
